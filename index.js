@@ -1,4 +1,5 @@
 process.env["NTBA_FIX_319"] = 1
+console.log('Server running');
 const TelegramBot = require('node-telegram-bot-api');
 const model = require('./src/model');
 const config = require('./src/config');
