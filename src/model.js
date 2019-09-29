@@ -73,8 +73,6 @@ const Model = class {
         let data = await this.getDataFromApi();
         if (!data) return this.texts['error'];
 
-        console.log(data);
-
         let currenciesArr = [], metalsArr = [], currenciesText = '', metalsText = ''; 
         for (let item of data) {
             if (this.metalsId.includes(item.r030)) {
