@@ -1,0 +1,24 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Vetlin Telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vetlin/telegram-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vetlin/telegram-bot/issues"
+  },
+  "homepage": "https://github.com/Vetlin/telegram-bot#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "node-telegram-bot-api": "^0.30.0",
+    "nodemon": "^1.19.2"
+  }
+}
